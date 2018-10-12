@@ -1,0 +1,21 @@
+{
+  "name": "tet",
+  "version": "1.0.0",
+  "description": "nothing",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test"
+	
+    "dev": "nodemon app.js"
+  
+  },
+  "author": "xiaozhen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongodb": "^3.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}

@@ -1,0 +1,522 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<title>YAMA | Advertising Display</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400italic,700italic' rel='stylesheet' type='text/css'>
+	<script src="js/slides.min.jquery.js"></script>
+	<script>
+		$(function(){
+			$('#slides').slides({
+				preload: true,
+				preloadImage: 'img/loading.gif',
+				play: 5000,
+				pause: 2500,
+				hoverPause: true
+			});
+		});
+	</script>
+	
+	<script>
+	jQuery(document).ready(function($) {
+ 
+	$(".upclicks, .downclicks, .scroll").click(function(event){		
+		event.preventDefault();
+		$('html,body').animate({scrollTop:$(this.hash).offset().top}, 1000);
+	});
+});
+
+
+</script>
+
+ <script type="text/javascript"> 
+function showImg1(){ 
+document.getElementById("wxImg").style.display='block'; 
+} 
+function hideImg1(){ 
+document.getElementById("wxImg").style.display='none'; 
+} 
+</script> 
+<script type="text/javascript"> 
+function showImg2(){ 
+document.getElementById("waImg").style.display='block'; 
+} 
+function hideImg2(){ 
+document.getElementById("waImg").style.display='none'; 
+} 
+</script> 
+
+<script type="text/javascript"> 
+function showImg3(){ 
+document.getElementById("spImg").style.display='block'; 
+} 
+function hideImg3(){ 
+document.getElementById("spImg").style.display='none'; 
+} 
+</script> 
+
+
+<script src="js/jquery.quicksand.js"></script>
+<script src="js/script.js"></script>
+</head>
+<body>
+
+<div id="home"></div>
+
+<header>
+	<div class="container">
+		<h1 class="headercontact">Follow on <a href="https://www.facebook.com/chan.kate.338">Facebook</a>
+		</h1>
+		<div class="headerlogo"><h1 class="logos logo1">YAMA</h1>
+		<h1 class="headersubtitle">Guangzhou YAMA Electronic Technology&#46;&#46;&#46;a leading advertisng display manufacturer &#46;</h1>
+		</div>
+	</div>
+</header>
+
+
+<div id="slider">
+
+	<div id="sliderbg">
+		<div class="container">
+			<div id="slides">
+				<div class="slides_container">
+					<a href="#" title="#"><img src="images/yama/wifi/3.jpg" width="940" height="350" alt="Slide 1"></a>
+					<a href="#" title="#"><img src="images/yama/wifi/7.jpg" width="940" height="350" alt="Slide 2"></a>
+					<a href="#" title="#" ><img src="images/yama/transparent/transparent.png" width="940" height="350" alt="Slide 3"></a>
+					<a href="#" title="#"><img src="images/yama/touch foil/1.jpg" width="940" height="350" alt="Slide 4"></a>
+				</div>
+				<a href="#" class="prev"><img src="images/slider/prev.png" width="11" height="16" alt="Arrow Prev"></a>
+				<a href="#" class="next"><img src="images/slider/next.png" width="11" height="16" alt="Arrow Next"></a>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="container">
+	<div id="portfolio">
+		<div class="divide2"></div>
+			<h1 class="logos logo2">YAMA</h1>
+			<ul class="navs nav1">
+				<li><a href="#home" class="scroll">Home</a></li>
+				<li><a href="#portfolio" class="active scroll">Video Demo</a></li>
+				<li><a href="#features" class="scroll">Features</a></li>
+				<li><a href="#contact" class="scroll">Service</a></li>
+				<li><a href="#footerbg" class="scroll">Contact</a></li>
+			</ul>
+		<a href="#home" class="upclicks up1" id="scroll">Head up one &uarr;</a>
+	   <a href="#sliderbg" class="backtotop scroll">Back to top! &#8593;</a>
+		
+		<h2>Product Video Demo</h2>
+		<div class="filter">
+			<h1 class="filtertitle"></h1>
+		</div>
+			
+		<nav id="filter">
+		
+		</nav>
+		<div class="portfoliocontainer">
+		<ul id="stage">
+		
+		        	<li data-tags="3D Fan">			
+				<video width="240" height="200" controls  poster="videos/images/1.png">
+                <source src="videos/3dFan.mp4" type="video/mp4">
+              </video>			
+			</li>
+			<li data-tags="3D Fan">				
+				<video width="240" height="200" controls  poster="videos/images/1.png">
+                <source src="videos/3dFan1.mp4" type="video/mp4">
+              </video>			
+			</li>		
+			<li data-tags="3D Fan">				
+				<video width="240" height="200" controls  poster="videos/images/1.png">
+                <source src="videos/3dFan2.mp4" type="video/mp4">
+              </video>				
+			</li>
+			
+			<li data-tags="3D Fan">				
+				<video width="240" height="200" controls  poster="videos/images/1.png">
+              <source src="videos/3dFan3.mp4" type="video/mp4">
+              </video>				
+			</li>
+			
+	
+	
+			<li data-tags="Transparent LCD Display">					 			
+				<video width="240" height="200" controls  poster="videos/images/transparent.jpg">
+              <source src="videos/transparent1.mp4" type="video/mp4">
+              </video>				
+			</li>
+			<li data-tags="Transparent LCD Display">					 			
+				<video width="240" height="200" controls  poster="videos/images/transparent.jpg">
+              <source src="videos/transparent2.mp4" type="video/mp4">
+              </video>				
+			</li>
+			
+		
+			
+			
+	       <li data-tags="Touch Foil">				
+					<video width="240" height="200" controls  poster="videos/images/LCD.jpg">
+				<source src="videos/touchFoil1.mp4" type="video/mp4">
+				  </video>			
+				</li>
+				
+				<li data-tags="Touch Foil">					
+					<video width="240" height="200" controls  poster="videos/images/projector.jpg">
+	                   <source src="videos/touchFoil2.mp4" type="video/mp4">
+				     </video>			
+				  </li>
+				  
+				  
+	       <li data-tags="Touch Foil">				
+					<video width="240" height="200" controls  poster="videos/images/LCD.jpg">
+				<source src="videos/touchFoil3.mp4" type="video/mp4">
+				  </video>			
+				</li>
+				
+			
+			
+		</ul>
+		</div>
+		
+						
+	</div>
+</div>
+
+
+
+<div class="container">
+ 	 <div id="features">
+ 		<div class="divide1"></div>
+		<h1 class="logos logo3">YAMA</h1>
+		<ul class="navs nav1">
+			
+				<li><a href="#home" class="scroll">Home</a></li>
+				<li><a href="#portfolio" class="scroll">Video Demo</a></li>
+				<li><a href="#features" class="active scroll">Features</a></li>
+				<li><a href="#contact" class="scroll">Service</a></li>
+				<li><a href="#footerbg" class="scroll">Contact</a></li>
+		</ul>
+		
+		<h2 >3D Hologram Fan Display Featuares</h2>
+		<a href="#portfolio" class="upclicks up1" id="scroll">Head up one &uarr;</a>
+	<a href="#sliderbg" class="backtotop scroll">Back to top! &#8593;</a>
+				
+		<p class="contactpara">
+	
+		
+       &bull;&emsp; 3D holographic display is the latest product in market, based on spectrum technology.<br><br>
+ 	  &bull;&emsp;  It rotates to produce fantastic 3D image and video in air.<br><br>
+      &bull;&emsp;  Hologram fan can be easily to fix on a variety of building or structure by screw. Simple and easy operation.<br><br>
+
+        &bull;&emsp; Hologram fan display content can be customized based on different application and product, such as shoe shops, jewelry shops, restaurant, etc.
+		
+
+		
+		</p>
+	
+		
+		<p class="column8para">
+		<h4 class ="checklist" >&darr;Product Links</h4>
+		<ul class="checknav2" >
+			<li><a style="color:#0FA5E3" href="https://www.alibaba.com/product-detail/3D-Advertising-Hologram-Display-LED-Fan_50042136980.html?spm=a2747.manage.list.8.3d6671d2rBypuX" >3D Advertising Hologram Display LED Fan 1m</a></li>
+			<li><a href="https://www.alibaba.com/product-detail/four-blades-wifi-holo-60cm-hologram_60788306967.html?spm=a2747.manage.list.14.3d6671d2rBypuX"  style="color:#0FA5E3">Four blades wifi 60cm 3d holographic fan</a></li>
+		
+		</ul>
+		</p>
+	
+ 	</div>
+ </div>
+
+
+<div class="container">
+ 	 <div id="features">
+ 		<div class="divide1"></div>
+		<h1 class="logos logo3">YAMA</h1>
+		<ul class="navs nav1">
+			<li><a href="#home" class="scroll">Home</a></li>
+				<li><a href="#portfolio" class="scroll">Video Demo</a></li>
+				<li><a href="#features" class="active scroll">Features</a></li>
+				<li><a href="#features" class="scroll">Service</a></li>
+				<li><a href="#footerbg" class="scroll">Contact</a></li>
+		</ul>
+		
+		<h2>Transparent LCD Panel Display Features</h2>
+		<a href="#portfolio" class="upclicks up1" id="scroll">Head up one &uarr;</a>
+		<a href="#sliderbg" class="backtotop scroll">Back to top! &#8593;</a>
+				
+		<p class="contactpara">
+		
+
+		
+
+ &bull;&emsp;Life span:&emsp;9 years<br>
+
+&bull;&emsp;Size options:&emsp; 9'' - 86''<br>
+
+&bull;&emsp;Transparent display don't have brightness for itself, so need electricity to work with LED lights to transparent display, the transparency is 70%~80%.<br>
+<br>
+&bull;&emsp;Transparent LCD panel connect board options:<br>
+&emsp;1) TV connect board:&emsp;LVDS, USB, HMDI, Power, DVD video interface, TV, audio interface.<br>
+&emsp;2) Stand-alone connect board: &emsp;LVDS, CF, USB.<br>
+&emsp;3) PC connect board:&emsp;LVDS, USB, HMDI, VGA, Audio interface.<br>
+&emsp;4) Android motherboard:&emsp;LVDS, USB, HMDI, CF, VGA, network interface.</p>
+		<p class="column8para">
+		<h4 class ="checklist" >&darr;Product Links</h4>
+		<ul class="checknav2">
+			<li><a href="https://www.alibaba.com/product-detail/interactive-lcd-screen-display-transparent-LCD_60741279315.html?spm=a2747.manage.list.2.3d6671d2rBypuX" style="color:#0FA5E3">Interactive transparent LCD display panels</a></li>
+			<li><a href="https://www.alibaba.com/product-detail/Transparent-lcd-screen-show-box-22_60738546772.html?spm=a2747.manage.list.11.3d6671d2rBypuX" style="color:#0FA5E3">Transparent lcd screen show box 22 inch</a></li>
+			
+		</ul>
+		</p>
+	
+ 	</div>
+ </div>
+
+
+ <div class="container">
+ 	 <div id="features">
+ 		<div class="divide1"></div>
+		<h1 class="logos logo3">YAMA</h1>
+		<ul class="navs nav1">
+			<li><a href="#home" class="scroll">Home</a></li>
+				<li><a href="#portfolio" class="scroll">Video Demo</a></li>
+				<li><a href="#features" class="active scroll">Features</a></li>
+				<li><a href="#features" class="scroll">Service</a></li>
+				<li><a href="#footerbg" class="scroll">Contact</a></li>
+		</ul>
+		
+		<h2>Touch Foil Film Features </h2>
+		<a href="#portfolio" class="upclicks up1" id="scroll">Head up one &uarr;</a>
+		<a href="#sliderbg" class="backtotop scroll">Back to top! &#8593;</a>
+		
+		<p class="contactpara">
+		How to use touch foil film?<br>
+        &bull;&emsp;touch foil film + glass windows + LCD screen <br>
+        &bull;&emsp;touch foil film + glass windows + Projector+ rear projection film<br><br>
+        
+     Why use YAMA touch foil film?<br>
+ &bull;&emsp; Can be attached to almost every surface: Shop window, Glass,  Rear projection film...Works on glass up to 20mm thickness<br>
+ &bull;&emsp; Perfect Single-touch and dual-touch, Quick touch response speed,Durable flexible touch foil, very light and thin touch foil <br>
+ &bull;&emsp;Easy to use and install, Can be permanent or replaceable. Available Size: from 30 to 180 inches sheets, bigger available on request<br>
+</p>
+		<p class="column8para">
+	  <h4 class ="checklist" >&darr;Product Links</h4>
+		<ul class="checknav2">
+			<li><a href="https://www.alibaba.com/product-detail/touch-screen-foil-32-inch-capacitive_60742265874.html?spm=a2747.manage.list.5.3d6671d2rBypuX" style="color:#0FA5E3">Touch screen foil 32 inch touch film for glass</a></li>
+			<li><a href="https://www.alibaba.com/product-detail/high-resolution-capacitive-projected-capacitive-touch_60741168501.html" style="color:#0FA5E3">High resolution capacitive projected  touch foil film</a></li>
+		
+		</ul>
+		</p>
+	
+ 	</div>
+ </div>
+
+
+ <div class="container">
+ 	 <div id="contact">
+ 		<div class="divide1"></div>
+		<h1 class="logos logo3">YAMA</h1>
+		<ul class="navs nav1">
+			
+			
+			<li><a href="#home" class="scroll">Home</a></li>
+				<li><a href="#portfolio" class="scroll">Video Demo</a></li>
+				<li><a href="#features" class="scroll">Features</a></li>
+				<li><a href="#contact" class="active scroll">Service</a></li>
+				<li><a href="#footerbg" class="scroll">Contact</a></li>
+		</ul>
+		
+		<h2>Service, Payment and Shipment</h2>
+		<a href="#features" class="upclicks up1" id="scroll">Head up one &uarr;</a>
+	<a href="#sliderbg" class="backtotop scroll">Back to top! &#8593;</a>
+				
+			
+		<p class="column8para">
+		
+		<ul class="checknav">
+		  
+		  
+		<p> 
+             <li><b >Trade terms  &bull;&emsp;</b><a >FOB, CIF, EXW</a></li>
+			<li><b>Payment terms  &bull;&emsp;</b><a >TT, Western Union, PayPal, Credit card, E-checking</a></li>
+			<li><b>Payment condition  &bull;&emsp;</b><a >50% deposit in advance, 50% balance before delivery</a></li>
+		    <li><b>Delivery time &bull;&emsp;</b><a >5~7days after deposit, 3~4 working days for inventory</a></li>
+			<li><b>Packing  &bull;&emsp;</b><a >Neutral carton, wooden case for large size</a></li>
+			<li><b>Shipping  &bull;&emsp;</b><a >By sea, by air and by express</a></li>
+		    <li><b > Warranty and Return &bull;&emsp; </b><a > 1 year warranty <br><br>&emsp;&emsp;If there is no man-made problem,we will replace or repair for you freely. <br>
+			(Make sure that you have completed all the detailed information like contact person,address,post code and telephone number when filling in your buyer's information.)</a></li>
+			
+
+		
+		
+		</ul>
+		</p>
+	
+ 	</div>
+ </div>
+
+
+
+
+
+	 <footer>
+ 	<div id="footerbg">
+ 		
+ 	</div>
+ </footer>
+
+</div>
+
+   <div class="container">
+	 <div id="contact">
+	 	<div class="divide1"></div>
+			<h1 class="logos logo3">YAMA</h1>
+			<ul class="navs nav1">
+			
+			<li><a href="#home" class="scroll">Home</a></li>
+				<li><a href="#portfolio" class="scroll">Video Demo</a></li>
+				<li><a href="#features" class="scroll">Purchase Now</a></li>
+				<li><a href="#contact" class="scroll">Service</a></li>
+				<li><a href="#footerbg" class="active scroll">Contact</a></li>
+			</ul>
+			<h2>Want to Get in Touch?</h2>
+			<a href="#contact" class="upclicks up1" id="scroll">Head up one &#8593;</a>
+			<a href="#sliderbg" class="backtotop scroll">Back to top! &#8593;</a>
+			
+			
+			
+			<p class="contactpara">&emsp;Then send us a message! Our professionals will contact you as soon as possible. It is our pleasure to offer the best service for you!
+             </p>
+			
+			<div class="divide5"></div>
+				
+			<h5 class="addresstitle" >
+			Tel:<span span style="color:#3B3B3B"> +86&emsp;13088890653</span>&emsp;&emsp; Email:<span style=""> sales@gz-yama.com</span><br>
+			Address:&emsp;RM A06, 3rd FL,<br> &emsp;&emsp;&emsp;&emsp;&emsp;Dongzhan Complex BLDG No. 1,<br>&emsp;&emsp;&emsp;&emsp;&emsp;
+			Dongzhan rd, Tianhe Dist., <br>&emsp;&emsp;&emsp;&emsp;&emsp;GuangZhou, GuangDong, China.<br>
+			
+			<h5>
+			<p class="addressline"></p>
+			<div class="divide6"></div>
+			<h5 class="contacttitle"><br><br></h5> 
+			<p class="contactline"><br><a ></a></p>
+			<form id="contactform" method="POST" action="/quotes">
+				<input type="text" placeholder="enter your name&#46;&#46;&#46;" class="input1" name="name">
+				<input type="email" placeholder="enter your email&#46;&#46;&#46;" class="input2" name="email">
+				<textarea class="input3" placeholder="enter your message&#46;&#46;&#46;" name="comment">Enter your inquiry details such as product name, color, size, MOQ, FOB, etc</textarea>
+				<a href="#"><input  type="submit" value="Submit it" class="input4"></a>
+				
+                  
+
+			</form>
+			
+			 
+			 <a href="javascript:" onMouseOut="hideImg1()" onmouseover="showImg1()"  class="contacttwitter contactbtn"><img src="images/contact/icons8-weixin-28.png" alt=""></a>
+			
+          <a id="wxImg" style="display:none;height:50px;back-ground:#f00;position:absolute;"><img src="images/contact/11.png"></a>
+
+			
+			
+			<a  href="javascript:" onMouseOut="hideImg2()" onmouseover="showImg2()"  class="contactdribble contactbtn"><img src="images/contact/icons8-whatsapp-26.png" alt=""></a>
+         <a id="waImg" style="display:none;height:50px;back-ground:#f00;position:absolute;"><img src="images/contact/22.jpg"></a>
+
+
+			<a href="javascript:" onMouseOut="hideImg3()" onmouseover="showImg3()" class="contactforrst contactbtn"><img src="images/contact/icons8-skype-26.png" alt=""></a>
+		
+            <a id="spImg" style="display:none;height:50px;back-ground:#f00;position:absolute;"><img src="images/contact/33.jpg"></a>
+      
+	
+	
+			
+	    
+		
+		
+	</div>
+	
+	
+ </div>
+ 
+ 
+	
+
+
+ 
+ <div id="aboutsection">
+<div id="about">
+	<div class="container">
+		<div class="divide1"></div>
+		<h1  class="logos logo2">YAMA</h1>
+		<ul class="navs nav1">
+			<li><a href="#home" class="scroll">Home</a></li>
+				<li><a href="#portfolio" class="scroll">Video Demo</a></li>
+				<li><a href="#features" class="scroll">Purchase Now</a></li>
+				<li><a href="#contact" class="scroll">Service</a></li>
+				<li><a href="#contact" class="active scroll">Contact</a></li>
+			
+		</ul>
+		<h2>Sales Team : We are Creative Folk.</h2>
+		<p> &emsp;&emsp;Guangzhou YAMA  Electronic Technology Co., Ltd ,
+		is a leading company based in Guangzhou, China. 
+		With our offices and factory located together for ease of management control, 
+		we are one of the biggest manufactures of advertising display products supporting China and the globe.
+		Dedicate and focus our time on being your professional designer, manufacturer and supplier of
+		advertising display digital signage.</p>
+
+
+	
+	
+		<article class="teammember1">
+			<img src="images/team/1.jpg" class="teamimage" alt="Team Member">
+			<h1>Kate</h1>
+			<h3 class="ocupation1">Sales Director</h3>
+			
+		
+		</article>
+		<article class="teammember1">
+			<img src="images/team/2.jpg" class="teamimage" alt="Team Member">
+			<h1>Amy</h1>
+			<h3 class="ocupation1">Sales Representative</h3>
+			
+		</article>
+		<article class="teammember1">
+			<img src="images/team/3.jpg" class="teamimage" alt="Team Member">
+			<h1>Grace</h1>
+			<h3 class="ocupation1">Sales Representative</h3>
+			
+		</article>
+		<article class="teammember1">
+			<img src="images/team/4.jpg" class="teamimage" alt="Team Member">
+			<h1>Jane</h1>
+			<h3 class="ocupation1">Sales Representative</h3>
+		
+		</article>
+	</div>
+</div>
+
+    
+	
+	 <footer>
+ 	<div id="footerbg">
+ 		<div class="container">
+ 			<h4 class="copyright"> &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;	&emsp;&emsp;&emsp;&emsp;&emsp;
+			&emsp;&emsp;&emsp;&emsp;&emsp;
+			&copy;Copyright 2018 <a href="#">YAMA</a> .</h4>
+ 			<h4 class="footertext">You can find us  on <a href="https://www.facebook.com/chan.kate.338">Facebook</a>&#46;</h4>
+ 		</div>
+ 	</div>
+ </footer>
+
+</div>
+
+
+  
+
+
+</div>
+
+
+</body>
+</html>
